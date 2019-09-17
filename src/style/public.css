@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,td,figure{margin:0;padding:0;}
+body{font:12px  "宋体"; word-wrap:break-word;}
+a,u,s,del{color:#666;text-decoration:none} 
+fieldset ,a img,.bor0{border:0;}
+i,em,b{font-style:normal;font-weight:100;}
+li{list-style:none;}
+img{vertical-align:middle;}
+table{border-collapse:collapse;}
+mark{background:none;}
+.ind2{text-indent:2em;}
+
+
+.over{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+
+.valign{text-align:center;}
+.valign img{vertical-align:middle;}
+.valign:after{content:"";display:inline-block;vertical-align:middle;height:100%;}
+
+
+/*清除浮动*/
+.clear{zoom:1;}/*解决ie高度塌陷*/
+.clear:before{content:"";display:table;}/*解决margin向上传递*/
+.clear:after{content:"";clear:both;display:block;}
+
